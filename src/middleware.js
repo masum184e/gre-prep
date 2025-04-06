@@ -21,6 +21,6 @@ export const middleware = async (req, res) => {
     }
 }
 
-export const middlewareOptions = {
-    matcher: "/api/users/",
+export const config = {
+    matcher: ["/api/users/"],
 }
